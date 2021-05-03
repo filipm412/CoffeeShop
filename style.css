@@ -1,0 +1,160 @@
+/*HERO PAGE*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#heroPhoto {
+    background-image: url(images/jpg/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+#navBarLogo {
+    width: 50%;
+}
+.navLink {
+    color: white;  
+}
+.navLink::after {
+    content: '';
+    display: block;
+    left: 5px;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+.navLink:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.navLink:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+#heroHeading1 {
+    font-size: 3rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#heroHeading2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+#heroButton {
+    background-color: transparent;
+    border: solid 2px white;
+    color: white;
+    padding: 10px;
+}
+#heroButton:hover {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+    transition: 0.3s;
+    color: black;
+    font-weight: bolder;
+}
+#hamburgerIcon:hover {
+    cursor: pointer;
+    filter: brightness(0.6);
+    transition: 0.2s;
+}
+#dropDown {
+    
+    background-color: #e5e5e5;
+}
+.navLink2 {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*OUR STAFF PAGE*/
+
+
+#ourStaff {
+    background-color: #e5e5e5;
+}
+#ourStaffPhoto {
+    width: 100%;
+}
+#ourStaffHeading {
+    font-size: 4rem;
+}
+#staffFacebook:hover {
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+#staffInstagram:hover {
+    filter: brightness(1.5);
+    cursor: pointer;
+}
+
+
+
+/*OUR MENU*/
+
+#ourMenuPhoto  {
+    background-image: url(images/jpg/ourMenu.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ourMenuHeading {
+    font-size: 3rem;
+    
+}
+#ourMenuSubheading {
+    font-size: 2rem;
+}
+#switchMenuButtonForward {
+    border: none;
+}
+#switchMenuButtonBackwards {
+    border: none;
+}
+#switchMenuButtonForward:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+#switchMenuButtonBackwards:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+}
+
+
+
+/*ABOUT US SECTION*/
+
+#aboutUsPhoto {
+    background-image: url(images/jpg/aboutUs1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*CONTACT US SECTION*/
+
+#contactUsSection {
+    background-image: url(images/jpg/footerImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*FOOTER SECTION*/
+
+#footerSection {
+    background-color: black;
+}
+
+
+
